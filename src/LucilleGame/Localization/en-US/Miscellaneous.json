@@ -1,0 +1,86 @@
+{
+  "ArbitraryTP": {
+    "Text": "{0}% TP",
+    "Status": "Completed"
+  },
+  "Mercy": {
+    "Text": "MERCY",
+    "Status": "Completed"
+  },
+  "Newline": {
+    "Text": "\n",
+    "Status": "Completed"
+  },
+  "Healing": {
+    "Text": "Healing",
+    "Status": "Completed"
+  },
+  "Varies": {
+    "Text": "varies",
+    "Status": "Completed"
+  },
+  "Heals": {
+    "Text": "Heals",
+    "Status": "Completed"
+  },
+  "TeamLowercase": {
+    "Text": "team",
+    "Status": "Completed"
+  },
+  "Heal": {
+    "Text": "Heal",
+    "Status": "Completed"
+  },
+  "Downed": {
+    "Text": "Downed",
+    "Status": "Completed"
+  },
+  "Ally": {
+    "Text": "Ally",
+    "Status": "Completed"
+  },
+  "AllHP": {
+    "Text": "All HP",
+    "Status": "Completed"
+  },
+  "AllHPScreaming": {
+    "Text": "ALL HP",
+    "Status": "Completed"
+  },
+  "ArbitraryHP": {
+    "Text": "{0}HP",
+    "Status": "Completed"
+  },
+  "ArbitraryHPDouble": {
+    "Text": "{0}HP 2x",
+    "Status": "Completed"
+  },
+  "Raises": {
+    "Text": "Raises",
+    "Status": "Completed"
+  },
+  "TP": {
+    "Text": "TP",
+    "Status": "Completed"
+  },
+  "ArbitraryPercentage": {
+    "Text": "{0}%",
+    "Status": "Completed"
+  },
+  "Max": {
+    "Text": "Max",
+    "Status": "Completed"
+  },
+  "Revives": {
+    "Text": "Revives",
+    "Status": "Completed"
+  },
+  "PartyLowercase": {
+    "Text": "party",
+    "Status": "Completed"
+  },
+  "MemberLowercase": {
+    "Text": "member",
+    "Status": "Completed"
+  }
+}

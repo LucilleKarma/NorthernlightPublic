@@ -1,0 +1,206 @@
+{
+  "Back": {
+    "Text": "Back",
+    "Status": "Completed"
+  },
+  "BackUppercase": {
+    "Text": "BACK",
+    "Status": "Completed"
+  },
+  "Border": {
+    "Text": "Border:",
+    "Status": "Completed"
+  },
+  "Cancel": {
+    "Text": "Cancel",
+    "Status": "Completed"
+  },
+  "ChooseOne": {
+    "Text": "CHOOSE ONE.",
+    "Status": "Completed"
+  },
+  "ChooseFileToCopy": {
+    "Text": "Choose a file to copy.",
+    "Status": "Completed"
+  },
+  "ChooseFileToErase": {
+    "Text": "Choose a file to erase.",
+    "Status": "Completed"
+  },
+  "CompletionFileNotFound": {
+    "Text": "Completion FILE not found.",
+    "Status": "Completed"
+  },
+  "Config": {
+    "Text": "Config",
+    "Status": "Completed"
+  },
+  "Copy": {
+    "Text": "Copy",
+    "Status": "Completed"
+  },
+  "DeltaruneCopyrightText": {
+    "Text": "(C) Toby Fox 2018-{0}",
+    "Status": "Completed"
+  },
+  "DeltaruneCopyrightTextFull": {
+    "Text": "DELTARUNE v0.0.253 (C) Toby Fox 2018-{0}",
+    "Status": "Completed"
+  },
+  "DeltaruneVersionText": {
+    "Text": "DELTARUNE v23",
+    "Status": "Completed"
+  },
+  "DoNot": {
+    "Text": "Do Not",
+    "Status": "Completed"
+  },
+  "DontUseChapter5File": {
+    "Text": "Don't Use Chapter 5 FILE",
+    "Status": "Completed"
+  },
+  "Dynamic": {
+    "Text": "Dynamic",
+    "Status": "Completed"
+  },
+  "EndUppercase": {
+    "Text": "END",
+    "Status": "Completed"
+  },
+  "EnterYourName": {
+    "Text": "ENTER YOUR OWN NAME.",
+    "Status": "Completed"
+  },
+  "EndProgram": {
+    "Text": "End Program",
+    "Status": "Completed"
+  },
+  "Erase": {
+    "Text": "Erase",
+    "Status": "Completed"
+  },
+  "EraseThisFile": {
+    "Text": "Erase this file?",
+    "Status": "Completed"
+  },
+  "EraseThisFileReally": {
+    "Text": "Really erase it?",
+    "Status": "Completed"
+  },
+  "FileEmpty": {
+    "Text": "[EMPTY]",
+    "Status": "Completed"
+  },
+  "FileLocationChapter6": {
+    "Text": "Cold Cliffs - Precipice",
+    "Status": "Completed"
+  },
+  "FileLocationFiller": {
+    "Text": "------------",
+    "Status": "Completed"
+  },
+  "FileTimeFiller": {
+    "Text": "--:--",
+    "Status": "Completed"
+  },
+  "FileSelect": {
+    "Text": "Please select a file.",
+    "Status": "Completed"
+  },
+  "ItCantBeCopied": {
+    "Text": "It can't be copied.",
+    "Status": "Completed"
+  },
+  "LanguageJapanese": {
+    "Text": "日本語",
+    "Status": "Completed"
+  },
+  "MadeOnSeeingCredits": {
+    "Text": "[Made on seeing credits.]",
+    "Status": "Completed"
+  },
+  "MusicVolume": {
+    "Text": "Music Volume: ",
+    "Status": "Completed"
+  },
+  "No": {
+    "Text": "No",
+    "Status": "Completed"
+  },
+  "NoExclamationPoint": {
+    "Text": "No!",
+    "Status": "Completed"
+  },
+  "None": {
+    "Text": "None",
+    "Status": "Completed"
+  },
+  "NoUppercase": {
+    "Text": "NO",
+    "Status": "Completed"
+  },
+  "NothingToErase": {
+    "Text": "There's nothing to erase.",
+    "Status": "Completed"
+  },
+  "Play": {
+    "Text": "Play",
+    "Status": "Completed"
+  },
+  "Quit": {
+    "Text": "Quit",
+    "Status": "Completed"
+  },
+  "SideA": {
+    "Text": "Side A",
+    "Status": "Completed"
+  },
+  "SideB": {
+    "Text": "Side B",
+    "Status": "Completed"
+  },
+  "Simple": {
+    "Text": "Simple",
+    "Status": "Completed"
+  },
+  "SoundVolume": {
+    "Text": "Sound Volume: ",
+    "Status": "Completed"
+  },
+  "Start": {
+    "Text": "Start",
+    "Status": "Completed"
+  },
+  "StartFromChapter5": {
+    "Text": "Start Chapter 6 from Chapter 5's FILE.",
+    "Status": "Completed"
+  },
+  "ThisIsYourName": {
+    "Text": "THIS IS YOUR NAME.",
+    "Status": "Completed"
+  },
+  "ThisWillStartChapter6": {
+    "Text": "This will start Chapter 6 in FILE Slot {0}.",
+    "Status": "Completed"
+  },
+  "UseWasdForInput": {
+    "Text": "WASD Controls:",
+    "Status": "Completed"
+  },
+  "Yes": {
+    "Text": "Yes",
+    "Status": "Completed"
+  },
+  "YesExclamationPoint": {
+    "Text": "Yes!",
+    "Status": "Completed"
+  },
+  "YesUppercase": {
+    "Text": "YES",
+    "Status": "Completed"
+  },
+  "YouCantCopyThere": {
+    "Text": "You can't copy there.",
+    "Status": "Completed"
+  }
+}

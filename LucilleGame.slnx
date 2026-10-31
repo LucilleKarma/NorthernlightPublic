@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/AtlasGenerator/AtlasGenerator.csproj" />
+  <Project Path="src/LocalizationKeyGenerator/LocalizationKeyGenerator.csproj" />
+  <Project Path="src/LucilleGame/Northernlight.csproj" />
+  <Project Path="src/NorthernlightStatsRefsBuilder/NorthernlightStatsRefsBuilder.csproj" />
+  <Project Path="src/ShaderGenerator/ShaderGenerator.csproj" Id="6f61e022-962a-497d-ac93-ead01aece9be" />
+</Solution>

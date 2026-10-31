@@ -1,0 +1,42 @@
+{
+  "DarkCandyCaneName": {
+    "Text": "DarkCandyCane",
+    "Status": "Completed"
+  },
+  "IceCubeName": {
+    "Text": "IceCube",
+    "Status": "Completed"
+  },
+  "IceCubeDescription1": {
+    "Text": "Bad",
+    "Status": "Completed"
+  },
+  "IceCubeDescription2": {
+    "Text": "For",
+    "Status": "Completed"
+  },
+  "IceCubeDescription3": {
+    "Text": "Teeth",
+    "Status": "Completed"
+  },
+  "PieConeName": {
+    "Text": "PieCone",
+    "Status": "Completed"
+  },
+  "SnowwomanPieceName": {
+    "Text": "SnowwomanPiece",
+    "Status": "Completed"
+  },
+  "NutmegnogName": {
+    "Text": "Nutmegnog",
+    "Status": "Completed"
+  },
+  "GrandDinnerName": {
+    "Text": "GrandDinner",
+    "Status": "Completed"
+  },
+  "GingerbreadMonsterName": {
+    "Text": "GngrbreadMnstr",
+    "Status": "Completed"
+  }
+}

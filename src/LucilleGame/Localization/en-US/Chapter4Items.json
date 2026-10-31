@@ -1,0 +1,26 @@
+{
+  "AncientSweetName": {
+    "Text": "AncientSweet",
+    "Status": "Completed"
+  },
+  "AncientSweetDescription1": {
+    "Text": "Kris only",
+    "Status": "Completed"
+  },
+  "AncientSweetDescription2": {
+    "Text": "+400",
+    "Status": "Completed"
+  },
+  "RhapsoteaName": {
+    "Text": "Rhapsotea",
+    "Status": "Completed"
+  },
+  "ScarlixirName": {
+    "Text": "Scarlixir",
+    "Status": "Completed"
+  },
+  "BitterTearName": {
+    "Text": "BitterTear",
+    "Status": "Completed"
+  }
+}

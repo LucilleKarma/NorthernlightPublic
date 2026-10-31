@@ -1,0 +1,62 @@
+{
+  "EnoughAlready": {
+    "Text": "Enough already!",
+    "Status": "Completed"
+  },
+  "GlowingVoiceAttempts1Line1": {
+    "Text": "HOW\nCURIOUS.",
+    "Status": "Completed"
+  },
+  "GlowingVoiceAttempts1Line2": {
+    "Text": "YOUR WILL...\nYOUR RESOLVE TO CHANGE FATE...\nI COULD FEEL IT SHINING.",
+    "Status": "Completed"
+  },
+  "GlowingVoiceAttempts1Line3": {
+    "Text": "AND YET...\nIT BRINGS YOU\nONLY ONE\nCHOICE.",
+    "Status": "Completed"
+  },
+  "GlowingVoiceAttempts2Line1": {
+    "Text": "AND SO, YOU MEET WITH THE SAME FATE.",
+    "Status": "Completed"
+  },
+  "GlowingVoiceAttempts2Line2": {
+    "Text": "THE CHOICE\nREMAINS LIKEWISE.",
+    "Status": "Completed"
+  },
+  "GlowingVoiceAttempts3Line1": {
+    "Text": "ONCE MORE.",
+    "Status": "Completed"
+  },
+  "GlowingVoiceYouFailedTheQuickTimeEventButHow": {
+    "Text": "IT SEEMS...\nYOU HESITATED.",
+    "Status": "Completed"
+  },
+  "GlowingVoiceCheatText": {
+    "Text": "...",
+    "Status": "Completed"
+  },
+  "GlowingVoiceWinLine1": {
+    "Text": "WONDERFUL...\nTHROUGH OUR CONNECTION, DELTARUNE GLOWS\nEVER BRIGHTER.",
+    "Status": "Completed"
+  },
+  "GlowingVoiceWinLine2": {
+    "Text": "NOW... THERE IS ONLY ONE.\n\nTHE LAST STORY.",
+    "Status": "Completed"
+  },
+  "GlowingVoiceWinLine3": {
+    "Text": "{0}...",
+    "Status": "Completed"
+  },
+  "GlowingVoiceWinLine4": {
+    "Text": "WE WILL MEET THERE...\nWON'T WE?",
+    "Status": "Completed"
+  },
+  "GoBackText": {
+    "Text": "GO BACK\n(FIGHT AGAIN)",
+    "Status": "Completed"
+  },
+  "Nothing": {
+    "Text": "",
+    "Status": "Completed"
+  }
+}

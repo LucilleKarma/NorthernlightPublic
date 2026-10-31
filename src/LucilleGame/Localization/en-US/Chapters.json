@@ -1,0 +1,54 @@
+{
+  "Chapter": {
+    "Text": "Chapter {0}",
+    "Status": "Completed"
+  },
+  "Chaper1Name": {
+    "Text": "The Beginning",
+    "Status": "Completed"
+  },
+  "Chaper2Name": {
+    "Text": "A Cyber's World",
+    "Status": "Completed"
+  },
+  "Chaper3Name": {
+    "Text": "Late Night",
+    "Status": "Completed"
+  },
+  "Chaper4Name": {
+    "Text": "Prophecy",
+    "Status": "Completed"
+  },
+  "Chapter5EndingRoom": {
+    "Text": "Castle Town [Chapter 5 END]",
+    "Status": "Completed"
+  },
+  "Chapter5Files": {
+    "Text": "Ch 5 Files",
+    "Status": "Completed"
+  },
+  "Chaper5Name": {
+    "Text": "Festival Day",
+    "Status": "Completed"
+  },
+  "Chaper6Name": {
+    "Text": "Northern Light",
+    "Status": "Completed"
+  },
+  "ChaperLockedName": {
+    "Text": "- -",
+    "Status": "Completed"
+  },
+  "ChapterSelect": {
+    "Text": "Chapter Select",
+    "Status": "Completed"
+  },
+  "ChapterUnloaded": {
+    "Text": "Insert Chapter {0}",
+    "Status": "Completed"
+  },
+  "ChapterUppercase": {
+    "Text": "CHAPTER {0}",
+    "Status": "Completed"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "AngelsBlessingName": {
+    "Text": "AngelsBlessing",
+    "Status": "Completed"
+  },
+  "AngelsBlessingDescription1": {
+    "Text": "Revive/heal",
+    "Status": "Completed"
+  },
+  "AngelsBlessingDescription2": {
+    "Text": "ally",
+    "Status": "Completed"
+  },
+  "CheckName": {
+    "Text": "Check",
+    "Status": "Completed"
+  },
+  "CheckDescription1": {
+    "Text": "Useless",
+    "Status": "Completed"
+  },
+  "CheckDescription2": {
+    "Text": "analysis",
+    "Status": "Completed"
+  },
+  "CheckText": {
+    "Text": "The Roaring Knight - AT 2300 DF 150\n* Adeptly wields the Black Knife.",
+    "Status": "Completed"
+  },
+  "CrossSlashName": {
+    "Text": "X-Slash",
+    "Status": "Completed"
+  },
+  "CrossSlashDescription1": {
+    "Text": "Physical",
+    "Status": "Completed"
+  },
+  "CrossSlashDescription2": {
+    "Text": "damage",
+    "Status": "Completed"
+  },
+  "HoldBreathName": {
+    "Text": "HoldBreath",
+    "Status": "Completed"
+  },
+  "HoldBreathRepeatText": {
+    "Text": "Kris held their breath.\n* Kris steeled themself.\n* Nothing happened.",
+    "Status": "Completed"
+  },
+  "HoldBreathRepeatTextEasterEgg": {
+    "Text": "Kris held their breath.&\n* Kris ran out of oxygen.&\n* Kris fainted.",
+    "Status": "Completed"
+  },
+  "HoldBreathText": {
+    "Text": "Kris held their breath.\n* Their heartbeat quickened.\n* The SOUL now moves faster.",
+    "Status": "Completed"
+  },
+  "GoodHealName": {
+    "Text": "Good Heal",
+    "Status": "Completed"
+  },
+  "GoodHealDescription1": {
+    "Text": "Heal",
+    "Status": "Completed"
+  },
+  "GoodHealDescription2": {
+    "Text": "ally",
+    "Status": "Completed"
+  },
+  "IceShockName": {
+    "Text": "IceShock",
+    "Status": "Completed"
+  },
+  "IceShockDescription1": {
+    "Text": "Damage",
+    "Status": "Completed"
+  },
+  "IceShockDescription2": {
+    "Text": "w/ ICE",
+    "Status": "Completed"
+  },
+  "RudeBusterName": {
+    "Text": "Rude Buster",
+    "Status": "Completed"
+  },
+  "RudeBusterDescription1": {
+    "Text": "Rude",
+    "Status": "Completed"
+  },
+  "RudeBusterDescription2": {
+    "Text": "Damage",
+    "Status": "Completed"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  // Basically all of these are very, very carefully
+  // considered and have their own unique narrative/mechanical
+  // throughlines underpinning their construction.
+  // Note that these entries should generally communicate subtly
+  // the mechanical implications of the attack it telegraphs, if
+  // applicable, whilst simultaneously incorporating some
+  // personal narrative weight (aka not just magniloquent
+  // line soup without reinforcing context).
+
+  // On each entry is design rationale, to keep in mind by
+  // other developers if they feel like something could
+  // be changed.
+
+  // One of the simpler ones, I feel. Mostly deliberate though. I think
+  // having some simpler text to give relative weight to the others
+  // is good. Kind of like a textual equivalent to the artistic
+  // principle of negative space.
+  // Anyway, in this context it's meant to put narrative emphasis
+  // on the fountain and "the distance", since the Knight enters
+  // the background, in front of the dark fountain in the backdrop, and
+  // thusly gives it more compositional consideration. Also, the
+  // "radiates darkness" line is meant to serve as an inherent
+  // dichotomy, framing darkness with a term typically associated with
+  // its total opposite, light.
+  "BattleFlavorTextBackgroundBarrage": {
+    "Text": "The fountain radiates darkness in the distance.",
+    "Status": "Completed"
+  },
+
+  // The box cut attack. The cold cuts through you.
+  // There's the mechanical throughline! BUT BUT BUT! It also
+  // fits the thematic entry of the freezing cold atop
+  // the snow-topped mountain cliff where the battle occurs.
+  // Simple, but really evocative and effective in my opinion.
+  "BattleFlavorTextBoxSplit": {
+    "Text": "The cold cuts through you.",
+    "Status": "Completed"
+  },
+
+  // I REALLY like this one at this point. It's a bit generic on its own, primarily
+  // acknowledging the feats/special status of You/Kris/The rest of the
+  // heroes in an indirect manner. But in the weird route specifically
+  // the meaning gets completely flipped on its head with a
+  // recontextualization. The game/Knight acknowledges your
+  // "reputation" in the context of what you've done in the weird
+  // route, whilst simultaneously evoking the infamous word
+  // "proceed" in that route with the similarly constructed
+  // "preceded."
+  "BattleFlavorTextDefault": {
+    "Text": "But your reputation preceded you.",
+    "Status": "Completed"
+  },
+
+  // A bit of a direct line, in the sense of not having much
+  // deeper layering but it's meant to mirror the
+  // golden stars mentioned in the chapter three fight
+  // and give a bit of environmental beauty to juxtapose the
+  // more dismal/perceptual-centric entries surrounding it.
+  // Naturally telegraphs the golden stars that fall during
+  // this attack too.
+  "BattleFlavorTextFallingStars": {
+    "Text": "Golden stars glisten above.",
+    "Status": "Completed"
+  },
+
+  // Mechanically telegraphs the black dagger
+  // bullets used during this attack.
+  // Also serves as a thematic foil to the white pen
+  // known as hope that Gerson mentions, implying that
+  // the Knight acts in some sense as an agent of Fate
+  // instead of hope (albeit with ambiguity on the 
+  // specifics of such).
+  "BattleFlavorTextFallingStarsHard": {
+    "Text": "Written by black pen.",
+    "Status": "Completed"
+  },
+
+  // A bit simple on their own, and I think that's OK?
+  // These lines need to be terse, direct, and communicative
+  // rather than flowery given that they telegraph the
+  // final attack. However, there is a juxtaposition
+  // in the framing. In the normal route, the framing is
+  // on the Knight and its overpowering force.
+  // In the weird route, the framing is on You and Your
+  // indifference and preparation, whilst indirectly acknowleding
+  // an apathy to the attack due to having seen it before. The
+  // weird route is the hard version of the fight, after all, it's
+  // almost certainly the version people are going to
+  // replay repeatedly for that kind of richer difficulty experience.
+  "BattleFlavorTextFinalAttack": {
+    "Text": "The Knight is preparing something...",
+    "Status": "Completed"
+  },
+  "BattleFlavorTextFinalAttackSideB": {
+    "Text": "You ready yourself.",
+    "Status": "Completed"
+  },
+
+  // This one's for when there's only Noelle left to target.
+  // Obviously the Knight doesn't really Want to hurt Noelle, seeing
+  // as they're quite obviously related due to the deer horns.
+  // Anyway, this fact doesn't need to be communicated cryptically or
+  // anything. This line, along with the visual change in expression
+  // on the Knight's visior of hesitation, is deliberately direct.
+  // It is, however, a bit deliberately clumsy and verbose, too, as
+  // one might expect a moment of hesitation to be.
+  "BattleFlavorTextHesitation": {
+    "Text": "Suddenly, a brief moment of hesitation.",
+    "Status": "Completed"
+  },
+
+  // This telegraphs the blizzard attack, obviously.
+  // But it also it has neat multi-layered meaning.
+  // The snow is more unique of a symbolically rich
+  // object for anthropomorphization than the wind in my opinion, and
+  // the "squall" has the dual meaning of a sudden, scream-like
+  // outburst and of course the weather event named thusly.
+  // The remembrance also yields a kind of cyclicity, implying
+  // that the violence of the weather is in some sense
+  // ancient and eternal yet transient in the moment.
+  // Something to be forgotten and then recalled at a whim.
+  "BattleFlavorTextHowlingWinds": {
+    "Text": "The snow remembers how to squall.",
+    "Status": "Completed"
+  },
+
+  // A lay-over from chapter three, with the same
+  // overarching rationale. Shifts the focus on
+  // the self instead of the surroundsing or the attack, whilst
+  // still telegraphing the violent spin motion of the
+  // red blade strikes.
+  "BattleFlavorTextRedFlurry": {
+    "Text": "Your heartbeat becomes twisted.",
+    "Status": "Completed"
+  },
+
+  // This is meant to serve almost like a two-line
+  // excerpt dyad from a poem. Seeing as the guitar
+  // attack is the most thematically relevant attack in the
+  // entire fight, I think it's warranted to have this disparity
+  // highlighted between routes. In the normal route it's made to
+  // illustrate a more sympathetic light on the Knight and on
+  // the unstoppable force of Fate, potentially alluding to
+  // a strong emotional conflict in the aforementioned antagonist.
+  // The weird route text responds to this in turn with a completion
+  // of the idea that rejects it apathetically, in the way that
+  // the player in that route might in a metacontextualized manner.
+  // The dash is deliberate, so as to give a subtle indication
+  // that the normal route text is incomplete and that the
+  // answer exists elsewhere.
+  // Also, they both telegraph the sound-based notion of the
+  // mechanics of the guitar, which syncs to the battle music.
+  "BattleFlavorTextRedSound": {
+    "Text": "A rhapsody, sung with unseen tears-",
+    "Status": "Completed"
+  },
+  "BattleFlavorTextRedSoundSideB": {
+    "Text": "Fallen on deaf ears.",
+    "Status": "Completed"
+  },
+
+  // Another lift from the original chapter three dialogue.
+  // Overall quite short in contrast to some of the other lines, but
+  // I think it does a decent job emphasizing the inner experience
+  // in the battle in contrast to the environmental and poetic
+  // lines used elsewhere here.
+  // In this context, it subtly indicates the mechanical value in the technique
+  // of staying in the corner and biding one's time before
+  // moving during the attack's volleys accelerate.
+  "BattleFlavorTextSideFlurry": {
+    "Text": "You feel cornered.",
+    "Status": "Completed"
+  },
+
+  // Your simple intro text. Curt, direct, and skipping the formalities.
+  // I think it's warranted for an antagonist that the heroes have been
+  // trying to stop for three chapters now and are well aware of.
+  "BattleFlavorTextStart": {
+    "Text": "The Roaring Knight.",
+    "Status": "Completed"
+  },
+
+  // Vertigo? Spinning sword tunnel. I think it's a natural
+  // contextual throughline.
+  // Also similar in terms of the personal experience motif established
+  // by the twisted heart line.
+  "BattleFlavorTextSwordTunnel": {
+    "Text": "You're overcome with vertigo.",
+    "Status": "Completed"
+  },
+
+  // An ambiguous line that has a spooky "it."
+  // Is the Knight moving forward? Is fate? The plot? You/the soul, perhaps?
+  // Well, mechanically, it alludes to the swords that move in a forward
+  // flurry, undulating, but that's just one interpretation here.
+  // Oh, also there's a subtle, originally unintended but cool nod to
+  // the famously attributed saying of Galileo: "Eppur si muove", translated
+  // as "And yet it moves", a historical message of defiance.
+  "BattleFlavorTextSwordTunnelAlt": {
+    "Text": "And yet it moves forward.",
+    "Status": "Completed"
+  }
+}

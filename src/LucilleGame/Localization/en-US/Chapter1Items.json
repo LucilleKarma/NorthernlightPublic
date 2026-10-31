@@ -1,0 +1,58 @@
+{
+  "DarkerCandyName": {
+    "Text": "Darker Candy",
+    "Status": "Completed"
+  },
+  "ReviveMintName": {
+    "Text": "ReviveMint",
+    "Status": "Completed"
+  },
+  "BrokenCakeName": {
+    "Text": "BrokenCake",
+    "Status": "Completed"
+  },
+  "TopCakeName": {
+    "Text": "Top Cake",
+    "Status": "Completed"
+  },
+  "SpinCakeName": {
+    "Text": "Spincake",
+    "Status": "Completed"
+  },
+  "DarkburgerName": {
+    "Text": "Darkburger",
+    "Status": "Completed"
+  },
+  "LancerCookieName": {
+    "Text": "LancerCookie",
+    "Status": "Completed"
+  },
+  "LancerCookieDescription": {
+    "Text": "Expired",
+    "Status": "Completed"
+  },
+  "GigaSaladName": {
+    "Text": "GigaSalad",
+    "Status": "Completed"
+  },
+  "ClubsSandwichName": {
+    "Text": "ClubsSandwich",
+    "Status": "Completed"
+  },
+  "HeartsDonutName": {
+    "Text": "HeartsDonut",
+    "Status": "Completed"
+  },
+  "ChocoDiamondName": {
+    "Text": "ChocoDiamond",
+    "Status": "Completed"
+  },
+  "FavwichName": {
+    "Text": "Favwich",
+    "Status": "Completed"
+  },
+  "RouxlsRouxName": {
+    "Text": "RouxlsRoux",
+    "Status": "Completed"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "CDBagelName": {
+    "Text": "CD Bagel",
+    "Status": "Completed"
+  },
+  "RottenTeaName": {
+    "Text": "RottenTea",
+    "Status": "Completed"
+  },
+  "DDBurgerName": {
+    "Text": "DD-Burger",
+    "Status": "Completed"
+  },
+  "LightCandyName": {
+    "Text": "LightCandy",
+    "Status": "Completed"
+  },
+  "ButJuiceName": {
+    "Text": "ButJuice",
+    "Status": "Completed"
+  },
+  "SpagettiCodeName": {
+    "Text": "SpagettiCode",
+    "Status": "Completed"
+  },
+  "JavaCookieName": {
+    "Text": "JavaCookie",
+    "Status": "Completed"
+  },
+  "TensionBitName": {
+    "Text": "TensionBit",
+    "Status": "Completed"
+  },
+  "TensionGemName": {
+    "Text": "TensionGem",
+    "Status": "Completed"
+  },
+  "TensionMaxName": {
+    "Text": "TensionMax",
+    "Status": "Completed"
+  },
+  "ReviveDustName": {
+    "Text": "ReviveDust",
+    "Status": "Completed"
+  },
+  "ReviveBriteName": {
+    "Text": "ReviveBrite",
+    "Status": "Completed"
+  }
+}

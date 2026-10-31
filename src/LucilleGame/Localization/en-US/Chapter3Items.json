@@ -1,0 +1,22 @@
+{
+  "TVDinnerName": {
+    "Text": "TVDinner",
+    "Status": "Completed"
+  },
+  "FlatSodaName": {
+    "Text": "FlatSoda",
+    "Status": "Completed"
+  },
+  "TVSlopName": {
+    "Text": "TVSlop",
+    "Status": "Completed"
+  },
+  "ExecBuffetName": {
+    "Text": "ExecBuffet",
+    "Status": "Completed"
+  },
+  "DeluxeDinnerName": {
+    "Text": "DeluxeDinner",
+    "Status": "Completed"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "PunchBowlName": {
+    "Text": "PunchBowl",
+    "Status": "Completed"
+  },
+  "FlavigneName": {
+    "Text": "Flavigne",
+    "Status": "Completed"
+  },
+  "GreenTeaName": {
+    "Text": "GreenTea",
+    "Status": "Completed"
+  },
+  "OrangeJuiceName": {
+    "Text": "OrangeJuice",
+    "Status": "Completed"
+  },
+  "SchadenbrotName": {
+    "Text": "Schadenbrot",
+    "Status": "Completed"
+  },
+  "TreeCakeName": {
+    "Text": "TreeCake",
+    "Status": "Completed"
+  },
+  "SPotionName": {
+    "Text": "S.POTION",
+    "Status": "Completed"
+  },
+  "RawMoonName": {
+    "Text": "Raw Moon",
+    "Status": "Completed"
+  },
+  "RawMoonDescription1": {
+    "Text": "Raises",
+    "Status": "Completed"
+  },
+  "RawMoonDescription2": {
+    "Text": "TP 16%",
+    "Status": "Completed"
+  },
+  "RawMoonDescription3": {
+    "Text": "+100HP",
+    "Status": "Completed"
+  },
+  "PhantaName": {
+    "Text": "Phanta",
+    "Status": "Completed"
+  },
+  "FlowerySodaName": {
+    "Text": "FlowerySoda",
+    "Status": "Completed"
+  },
+  "FlowerySodaDescription3": {
+    "Text": "+100HP",
+    "Status": "Completed"
+  },
+  "ShikacolaName": {
+    "Text": "Shikacola",
+    "Status": "Completed"
+  }
+}
