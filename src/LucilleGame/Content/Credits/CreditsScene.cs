@@ -133,7 +133,10 @@ public sealed class CreditsScene(NorthernlightGame game, int saveFileNumber) : S
         if (player.Done)
         {
             if (CloseGameAtEnd)
-                Environment.Exit(0);
+            {
+                if (Music.Tracks.Length <= 0 || Music.Tracks[0].PositionBytes >= Music.Tracks[0].LoopEndBytes)
+                    Environment.Exit(0);
+            }
             else
             {
                 screen.Children.Clear();

@@ -16,7 +16,7 @@ public sealed class RedSound : Attack<RoaringKnight>
 {
     public readonly record struct Stats(float Duration, int NoteDamage, float NoteGrazePoints, float MaxGameSpeedup, float ShockwaveReleaseRate, float RadialSpreadUniformity, Vector2 BoxSize);
 
-    public record Note(Sound Sound, OwnedTimer Timer, float Duration, float StartingVolume);
+    public record Note(WeakReference<Sound> Sound, OwnedTimer Timer, float Duration, float StartingVolume);
 
     private int shockwaveCounter;
 
@@ -327,7 +327,7 @@ public sealed class RedSound : Attack<RoaringKnight>
                         durationToStop *= 1.45f;
                     }
 
-                    activeNotes.Add(new Note(sound, Scene.Time.Rent(ignoreGlobalSpeed: true), durationToStop, volume));
+                    activeNotes.Add(new Note(new WeakReference<Sound>(sound), Scene.Time.Rent(ignoreGlobalSpeed: true), durationToStop, volume));
                     Scene.Audio.Play(sound);
                 }
 
@@ -749,16 +749,19 @@ public sealed class RedSound : Attack<RoaringKnight>
 
     private void CloselyMonitorNotesForDurationStop()
     {
+        activeNotes.RemoveAll(n => !n.Sound.TryGetTarget(out Sound? s) || s.PositionBytes >= s.LoopEndBytes || s.Disposed);
         for (int i = 0; i < activeNotes.Count; i++)
         {
             Note note = activeNotes[i];
+            if (!note.Sound.TryGetTarget(out Sound? s))
+                continue;
 
             float fadeoutProgress = note.Timer / note.Duration;
-            note.Sound.Stream.Volume = note.StartingVolume * float.InverseLerp(1f, 0.5f, fadeoutProgress);
+            s.Stream.Volume = note.StartingVolume * float.InverseLerp(1f, 0.5f, fadeoutProgress);
 
             if (note.Timer.Elapsed(note.Duration))
             {
-                note.Sound.Stop();
+                s.Stop();
                 activeNotes.RemoveAt(i);
                 i--;
             }

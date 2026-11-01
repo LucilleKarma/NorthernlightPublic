@@ -8,7 +8,11 @@ namespace Northernlight.Core.Audio;
 /// </summary>
 public sealed class Sound : IDisposable
 {
-    private bool disposed;
+    internal bool Disposed
+    {
+        get;
+        private set;
+    }
 
     private readonly Lock readLock = new Lock();
 
@@ -148,7 +152,7 @@ public sealed class Sound : IDisposable
     {
         lock (readLock)
         {
-            if (FinishedPlaying || Buffer.Handle == nint.Zero || disposed)
+            if (FinishedPlaying || Buffer.Handle == nint.Zero || Disposed)
                 return 0;
 
             int bytesRemaining = PlaybackDirection > 0
@@ -193,7 +197,8 @@ public sealed class Sound : IDisposable
                     playbackOffset += difference;
                 }
 
-                Marshal.Copy(Buffer.Handle + playbackOffset, destination, 0, bytesToRead);
+                if (!Disposed)
+                    Marshal.Copy(Buffer.Handle + playbackOffset, destination, 0, bytesToRead);
                 PositionBytes += bytesToRead;
             }
             else
@@ -206,8 +211,8 @@ public sealed class Sound : IDisposable
                     playbackOffset += difference;
                 }
 
-                Marshal.Copy(Buffer.Handle + playbackOffset, destination, 0, bytesToRead);
-
+                if (!Disposed)
+                    Marshal.Copy(Buffer.Handle + playbackOffset, destination, 0, bytesToRead);
                 PositionBytes -= bytesToRead;
             }
 
@@ -232,10 +237,10 @@ public sealed class Sound : IDisposable
 
     public void Dispose(bool disposeBuffer)
     {
-        if (disposed)
+        if (Disposed)
             return;
 
-        disposed = true;
+        Disposed = true;
 
         CancellationTokenSource.Cancel();
         if (disposeBuffer)

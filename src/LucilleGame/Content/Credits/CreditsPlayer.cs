@@ -39,6 +39,11 @@ public sealed class CreditsPlayer : DrawableObject
     private static readonly Font font = new Font("8bitoperator.ttf", 64f);
 
     /// <summary>
+    ///     Whether the game should be closed when the credits are finished.
+    /// </summary>
+    public bool CloseGameAtEnd => scene.CloseGameAtEnd;
+
+    /// <summary>
     ///     Whether the credits have fully played out or not.
     /// </summary>
     public bool Done => displayIndex >= displays.Length;
@@ -49,8 +54,13 @@ public sealed class CreditsPlayer : DrawableObject
         this.scene = scene;
         displayChangeTimer = scene.Time.Rent();
 
-        scene.Audio.Play(new Sound(AudioBuffer.FromWav("CreditsCutSound.wav"), 0.6f));
-        scene.Music.Add(new Sound(AudioBuffer.FromWav("SilentNight.wav", musicDirectory: true)));
+        if (!CloseGameAtEnd)
+        {
+            scene.Audio.Play(new Sound(AudioBuffer.FromWav("CreditsCutSound.wav"), 0.6f));
+            scene.Music.Add(new Sound(AudioBuffer.FromWav("SilentNight.wav", musicDirectory: true)));
+        }
+        else
+            scene.Music.Add(new Sound(AudioBuffer.FromWav("NoMore.wav", musicDirectory: true)), autoLoop: false);
     }
 
     protected override void UpdateSelf()
@@ -59,19 +69,22 @@ public sealed class CreditsPlayer : DrawableObject
         if (Done)
             return;
 
-        float cycleRate = scene.CloseGameAtEnd ? 5f : 4.8f;
+        float cycleRate = CloseGameAtEnd ? 10f : 4.8f;
         if (displayChangeTimer.Cycle(cycleRate))
         {
             displayIndex++;
-            if (Done && scene.CloseGameAtEnd)
+            if (Done && CloseGameAtEnd)
                 return;
 
-            Sound sound = new Sound(AudioBuffer.FromWav("CreditsCutSound.wav"), 0.6f);
-            sound.Stream.FrequencyRatio = 1f + displayIndex * 0.002f;
-            if (Done)
-                sound.Stream.FrequencyRatio *= 1.2f;
+            if (!CloseGameAtEnd)
+            {
+                Sound sound = new Sound(AudioBuffer.FromWav("CreditsCutSound.wav"), 0.6f);
+                sound.Stream.FrequencyRatio = 1f + displayIndex * 0.002f;
+                if (Done)
+                    sound.Stream.FrequencyRatio *= 1.2f;
 
-            scene.Audio.Play(sound);
+                scene.Audio.Play(sound);
+            }
         }
     }
 

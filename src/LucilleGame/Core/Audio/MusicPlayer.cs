@@ -58,9 +58,10 @@ public sealed class MusicPlayer
     /// <summary>
     ///     Adds a music track to this player.
     /// </summary>
-    public void Add(Sound music)
+    public void Add(Sound music, bool autoLoop = true)
     {
-        music.Loop = true;
+        if (autoLoop)
+            music.Loop = true;
 
         tracks.Add(music);
         Player.Play(music);

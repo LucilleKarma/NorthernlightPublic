@@ -111,29 +111,6 @@ public static class MathExtensions
         }
 
         /// <summary>
-        ///     Calculates the result of a Hermite spline from two input
-        ///     points and two tangents in 2D space.
-        /// </summary>
-        public static Vector2 Hermite(Vector2 a, Vector2 tangentA, Vector2 b, Vector2 tangentB, float interpolant)
-        {
-            float x = float.Hermite(a.X, tangentA.X, b.X, tangentB.X, interpolant);
-            float y = float.Hermite(a.Y, tangentA.Y, b.Y, tangentB.Y, interpolant);
-            return new Vector2(x, y);
-        }
-
-        /// <summary>
-        ///     Calculates the result of a Hermite spline from two input
-        ///     points and two tangents in 3D space.
-        /// </summary>
-        public static Vector3 Hermite(Vector3 a, Vector3 tangentA, Vector3 b, Vector3 tangentB, float interpolant)
-        {
-            float x = float.Hermite(a.X, tangentA.X, b.X, tangentB.X, interpolant);
-            float y = float.Hermite(a.Y, tangentA.Y, b.Y, tangentB.Y, interpolant);
-            float z = float.Hermite(a.Z, tangentA.Z, b.Z, tangentB.Z, interpolant);
-            return new Vector3(x, y, z);
-        }
-
-        /// <summary>
         ///     Interpolates between three <see cref="Vector2"/>-based points via a quadratic Bezier spline.
         /// </summary>
         public static Vector2 QuadraticBezier(Vector2 a, Vector2 b, Vector2 c, float interpolant)
@@ -180,6 +157,17 @@ public static class MathExtensions
             float y = float.LerpDt(a.Y, b.Y, sharpness, time);
             return new Vector2(x, y);
         }
+
+        /// <summary>
+        ///     Calculates the result of a Hermite spline from two input
+        ///     points and two tangents in 2D space.
+        /// </summary>
+        public static Vector2 Hermite(Vector2 a, Vector2 tangentA, Vector2 b, Vector2 tangentB, float interpolant)
+        {
+            float x = float.Hermite(a.X, tangentA.X, b.X, tangentB.X, interpolant);
+            float y = float.Hermite(a.Y, tangentA.Y, b.Y, tangentB.Y, interpolant);
+            return new Vector2(x, y);
+        }
     }
 
     extension(Vector3)
@@ -209,6 +197,18 @@ public static class MathExtensions
             float cosTheta = float.Cos(theta);
             float sinTheta = float.Sin(theta);
             return v * cosTheta + Vector3.Cross(axis, v) * sinTheta + axis * Vector3.Dot(axis, v) * (1f - cosTheta);
+        }
+
+        /// <summary>
+        ///     Calculates the result of a Hermite spline from two input
+        ///     points and two tangents in 3D space.
+        /// </summary>
+        public static Vector3 Hermite(Vector3 a, Vector3 tangentA, Vector3 b, Vector3 tangentB, float interpolant)
+        {
+            float x = float.Hermite(a.X, tangentA.X, b.X, tangentB.X, interpolant);
+            float y = float.Hermite(a.Y, tangentA.Y, b.Y, tangentB.Y, interpolant);
+            float z = float.Hermite(a.Z, tangentA.Z, b.Z, tangentB.Z, interpolant);
+            return new Vector3(x, y, z);
         }
     }
 

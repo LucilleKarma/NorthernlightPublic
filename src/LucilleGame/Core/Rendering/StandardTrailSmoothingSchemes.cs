@@ -73,7 +73,7 @@ public abstract class StandardTrailSmoothingSchemes
             Vector3 m0 = state.UnnormalizedTrailTangents[startIndex];
             Vector3 m1 = state.UnnormalizedTrailTangents[endIndex];
 
-            rentedOutputArray[i] = float.Hermite(p0, m0, p1, m1, fractionalInterpolant);
+            rentedOutputArray[i] = Vector3.Hermite(p0, m0, p1, m1, fractionalInterpolant);
         }
     }
 }
