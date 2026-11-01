@@ -174,13 +174,39 @@ public sealed class Sound : IDisposable
             int bytesToRead = int.Min(destination.Length, bytesRemaining);
             if (PlaybackDirection > 0)
             {
-                Marshal.Copy(Buffer.Handle + PositionBytes, destination, 0, bytesToRead);
+                // An evil problem has been plaguing the game for
+                // a while now. Event viewer logs seem indicate that this
+                // method is responsible, on account of the underlying
+                // Marshal.Copy going past its legal bounds and receiving
+                // a rude access violation exception.
+
+                // I'm not entirely sure what the origin of the problem is.
+                // Maybe something race condition related in the
+                // position increment?
+                // Either way, I'll just clamp the offset to prevent that
+                // entirely. Testing seems to suggest it works.
+                int playbackOffset = PositionBytes;
+                int nextPlaybackOffset = playbackOffset + bytesToRead;
+                if (nextPlaybackOffset > Buffer.Length)
+                {
+                    int difference = (int)Buffer.Length - nextPlaybackOffset;
+                    playbackOffset += difference;
+                }
+
+                Marshal.Copy(Buffer.Handle + playbackOffset, destination, 0, bytesToRead);
                 PositionBytes += bytesToRead;
             }
             else
             {
-                int start = PositionBytes - bytesToRead;
-                Marshal.Copy(Buffer.Handle + start, destination, 0, bytesToRead);
+                int playbackOffset = PositionBytes - bytesToRead;
+                int nextPlaybackOffset = playbackOffset + bytesToRead;
+                if (nextPlaybackOffset > Buffer.Length)
+                {
+                    int difference = (int)Buffer.Length - nextPlaybackOffset;
+                    playbackOffset += difference;
+                }
+
+                Marshal.Copy(Buffer.Handle + playbackOffset, destination, 0, bytesToRead);
 
                 PositionBytes -= bytesToRead;
             }

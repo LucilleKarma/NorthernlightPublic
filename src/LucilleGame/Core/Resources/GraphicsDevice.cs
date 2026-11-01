@@ -65,7 +65,7 @@ public sealed class GraphicsDevice : IDisposable
         ShaderFormat = shaderFormat;
         Handle = SDL.CreateGPUDevice(ShaderFormat, true, null);
         if (Handle == 0)
-            SDL.Log($"SDL_CreateGPUDevice() failed: {SDL.GetError()}");
+            throw new InvalidOperationException($"SDL_CreateGPUDevice() failed: {SDL.GetError()}");
 
         PointClamp = new Sampler(this, new SDL.GPUSamplerCreateInfo()
         {
